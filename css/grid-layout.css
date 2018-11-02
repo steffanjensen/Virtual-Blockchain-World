@@ -1,0 +1,17 @@
+.lt_grid-container {
+	  display: grid;
+	    height: 100%;
+	      grid-template-columns: 200px 200px 200px 200px 200px 200px;
+	        grid-template-rows: 200px 200px 200px 200px 200px;
+		  grid-gap: 1px 1px;
+		    grid-template-areas: "chat chat chat chat chatbox chatbox" "chat chat chat chat chatbox chatbox" "chat chat chat chat chatbox chatbox" "textbox textbox textbox textbox sidemenu sidemenu" ". . . . . .";
+	    }
+
+	    .lt_chatbox { grid-area: chatbox; }
+
+	    .lt_chat { grid-area: chat; }
+
+	    .lt_textbox { grid-area: textbox; }
+
+	    .lt_sidemenu { grid-area: sidemenu; }
+

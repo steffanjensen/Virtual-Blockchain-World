@@ -1,0 +1,15 @@
+.room { background-image: url("room.png"); position:relative; height:489px; width:722px; }
+.chair { padding:2px; background-color: transparent; width:40px; height:40px; }
+.table {
+	background-color: transparent;
+	width: 364px;
+	height: 106px;
+}
+.avatar { width:33px; height:78px; position: relative; bottom: 50px; background-image: url("avatar.png"); }
+.chatbox {background:url('barsheet.png');image-rendering:-moz-crisp-edges;position:absolute;left:50%;z-index:5;-moz-transition:0.2s bottom ease;-webkit-transition:0.2s bottom ease;-o-transition:0.2s bottom ease;-ms-transition:0.2s bottom ease;transition:0.2s bottom ease;}
+ 
+ #chatbox {height:48px;width:1182px;background-size:1440px;background-position:0 -96px;margin-left:-591px;bottom:18px;}
+        #chatbox.active {bottom:66px;}
+		#chatbox input {font-size:20px;color:#eee;background:none;width:90%;border:0;margin-left:2%;padding:16px 0;}
+ 
+ .gp {font-family: 'GraphicPixel', sans-serif;}
