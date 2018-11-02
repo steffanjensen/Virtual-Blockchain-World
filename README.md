@@ -10,4 +10,4 @@
 
 
 <h4>Demo</h4>
-http://www.buyapp.reviews/3dchat/
+http://www.6hourapp.com/3dchat/
